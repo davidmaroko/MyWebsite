@@ -1,10 +1,16 @@
 body{
 font-family: 'Heebo', sans-serif;
-    color: red;
+    color: darkred;
     font-size: 50px;
 }
 h1{
     font-weight: 400;
     font-size: 60px;
-    color: antiquewhite;
+    color: darkred;
+}
+img{
+   image-resolution: 60px;
+}
+li{
+     color: darkred;
 }
