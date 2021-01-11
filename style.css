@@ -1,16 +1,46 @@
-body{
-font-family: 'Heebo', sans-serif;
+body {
+    font-family: 'Heebo', sans-serif;
     color: darkred;
     font-size: 50px;
 }
-h1{
+
+h1 {
     font-weight: 400;
     font-size: 60px;
     color: darkred;
 }
-img{
-   image-resolution: 60px;
+
+li {
+    color: darkred;
 }
-li{
-     color: darkred;
+
+.container {
+    max-width: 800px;
+    margin: auto;
 }
+
+img {
+    image-resolution: 60px;
+    max-width: 100%;
+    width: auto;
+    height: auto;
+}
+
+.center {
+    max-width: 100%;
+margin: auto;
+    display: block;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+    align-items: center;
+}
+@media (max-width: 800px) {
+  .grid {
+    grid-template-columns: 1fr;
+  } 
+}
+
