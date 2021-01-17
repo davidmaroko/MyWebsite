@@ -4,18 +4,16 @@ body {
     font-size: 50px;
 }
 
-h1 {
+h1,h2,h3 {
+    font-family: 'Secular One', sans-serif;
     font-weight: 400;
     font-size: 60px;
     color: darkred;
 }
 
-li {
-    color: darkred;
-}
 
 .container {
-    max-width: 800px;
+    max-width: 900px;
     margin: auto;
 }
 
@@ -32,12 +30,28 @@ margin: auto;
     display: block;
 }
 
+.description{
+    background: #000;
+}
+
+.about{
+    background: #fff;
+}
+
+
+.contact{
+    background: #000;
+     padding:40px;
+        
+}
+
 .grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-gap: 20px;
     align-items: center;
 }
+
 @media (max-width: 800px) {
   .grid {
     grid-template-columns: 1fr;
