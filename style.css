@@ -2,6 +2,8 @@ body {
     font-family: 'Heebo', sans-serif;
     color: darkred;
     font-size: 50px;
+    line-height:1.5;
+    margin:0;
 }
 
 h1,
@@ -16,14 +18,15 @@ h2 {
     font-family: 'Secular One', sans-serif;
     font-weight: 400;
     font-size: 60px;
-    color: mediumslateblue;
+    color: darkslategrey;
 }
 
 p1 {
     font-family: 'Heebo', sans-serif;
     font-weight: 400;
     font-size: 60px;
-    color: mediumslateblue;
+    color:     deeppink;
+;
 }
 
 .container {
@@ -38,6 +41,19 @@ img {
     height: auto;
 }
 
+.logo{
+    font-size:24px;
+    margin:auto;
+    display: table;
+}
+
+.logo img{
+    display: :block;
+        margin:auto;
+
+}
+
+
 .center {
     max-width: 100%;
     margin: auto;
@@ -47,6 +63,7 @@ img {
 .description {
     background: #000;
     padding: 40px;
+    margin-top:40px;
 }
 
 .about {
@@ -59,7 +76,11 @@ img {
 .contact {
     background: #000;
     padding: 40px;
+text-align: center;
+}
 
+.contact .container{
+    max-width: 720px;
 }
 
 .grid {
