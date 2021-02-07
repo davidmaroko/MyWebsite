@@ -1,4 +1,5 @@
 body {
+    background-image: url(img/watercolor.png);
     font-family: 'Heebo', sans-serif;
     color: darkred;
     font-size: 50px;
@@ -7,12 +8,85 @@ body {
 }
 
 h1,
-h3 {
+h2 {
     font-family: 'Secular One', sans-serif;
     font-weight: 400;
     font-size: 60px;
-    color: darkred;
+    color: #fff;
 }
+h1 {
+    text-align: center;
+}
+
+.container {
+    max-width: 900px;
+    margin: auto;
+}
+.about {
+    background: url(img/IMG_5627.JPG);
+    background-size: cover;
+    color: #fff;
+    padding: 40px;
+}
+.contact {
+    text-align: center;
+    background: #e0c9d0;
+    color:darkblue;
+    padding: 40px;
+}
+p {
+    font-size: 30px;
+}
+.logo {
+    font-size: 30px;
+    margin:auto;
+    display:table;
+}
+
+.logo img {
+    display: block;
+ 
+}
+.products{
+    padding: 40px 0;
+}
+.gallery {
+grid-gap: 30px;
+    display: grid;
+    grid-template-columns: 1fr  1fr;
+    text-align: center;
+    font-size: 25px;
+
+}
+.gallery img {
+    display: block;
+    margin: auto;
+ 
+
+
+/*
+
+                    
+             <div><img src="img/birme/01%20(1).JPG"></div>
+                <div><img src="img/birme/01%20(2).JPG"></div>
+                <div><img src="img/birme/01%20(3).JPG"></div>
+                <div><img src="img/birme/01%20(4).JPG"></div>
+                <div><img src="img/birme/01%20(5).JPG"></div>
+                <div><img src="img/birme/01%20(6).JPG"></div>
+                <div><img src="img/birme/01%20(7).JPG"></div>
+                <div><img src="img/birme/01%20(8).JPG"></div>
+                <div><img src="img/birme/01%20(9).JPG"></div>
+                <div><img src="img/birme/01%20(10).JPG"></div>
+                <div><img src="img/birme/01%20(11).JPG"></div>
+                <div><img src="img/birme/01%20(12).JPG"></div>
+                <div><img src="img/birme/01%20(13).JPG"></div>
+                <div><img src="img/birme/01%20(14).JPG"></div>
+                <div><img src="img/birme/01%20(15).JPG"></div>
+                <div><img src="img/birme/01%20(16).JPG"></div>
+
+
+
+        <div class="container">
 
 h2 {
     font-family: 'Secular One', sans-serif;
@@ -29,10 +103,6 @@ p1 {
 ;
 }
 
-.container {
-    max-width: 900px;
-    margin: auto;
-}
 
 img {
     image-resolution: 60px;
@@ -127,4 +197,7 @@ text-align: center;
   background: #000;
   color: #fff;
 }*/
+
+
+
 
