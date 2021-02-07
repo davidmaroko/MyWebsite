@@ -49,6 +49,7 @@ p {
 }
 .products{
     padding: 40px 0;
+    text-align: center;
 }
 .gallery {
 grid-gap: 30px;
@@ -63,14 +64,22 @@ grid-gap: 30px;
     margin: auto;
 }
  
-    
 
 .button {
+    border:16px solid #e0c9d0;
     background: #fff;
     text-decoration: none;
     display: inline-block;
     color:#e0c9d0;
     padding: 10px 20px;
+    margin: 50px 0;
+    font-size: 45px;
+}
+
+.button:hover {
+background:#e0c9d0; 
+        color:#fff;
+
 }
 
 
